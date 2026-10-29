@@ -27,3 +27,7 @@ At first every test fails: that is expected. Each problem you solve turns its te
 ## Starting over
 
 If something goes wrong, run `Northwind.sql` from the course's sample databases again. It creates Northwind fresh, with its original data. Then start again from problem 1.
+
+## Hand it in
+
+When it works, push your solution to a public repo of your own on GitHub, then paste that repo's address into **Submit your exercise** on the lesson page at [ask-codey.com](https://www.ask-codey.com). That's what completes the lesson. The lesson page shows the Git commands, step by step.
