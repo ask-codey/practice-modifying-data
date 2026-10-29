@@ -1,0 +1,12 @@
+-- 4. You've just been hired by Northwind Traders! Add yourself to the
+--    Employees table as a Sales Associate. Include your:
+--      - first and last name
+--      - title (Sales Associate)
+--      - title of courtesy (Mr., Ms., Dr. and so on)
+--      - birth date
+--      - hire date: today (GETDATE() is the current date and time)
+--      - address, city, region, postal code and country
+--    Leave every other column empty. Made-up details are fine.
+--
+-- Expected: (1 row affected)
+
