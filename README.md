@@ -1,6 +1,6 @@
-# Practice: Modifying Data
+# Exercise: Modifying Data
 
-Practice SQL for the lesson **Practice: Modifying Data** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
+Exercise SQL for the lesson **Exercise: Modifying Data** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
 
 Nine problems that add, change and remove data in the **Northwind** database. Each file holds a problem as a comment: write your SQL under it. The problems build on each other, so do them in order: the products you add in problem 3 are the ones you change and delete later.
 
@@ -16,10 +16,10 @@ Each problem says what to expect, such as `(1 row affected)`. After each change,
 
 ## Check your answers
 
-`ModifyingPractice.Tests` runs your files against your Northwind database, in order, and checks the data they leave behind. Nothing is changed: everything runs inside one transaction that is rolled back. The tests start from Northwind as `Northwind.sql` makes it (the rows you added in SSMS are set aside inside the transaction, and come back afterwards), so you can run them whenever you like. It needs the .NET SDK, which you installed in the first week. Open a terminal in this folder and run:
+`ModifyingExercise.Tests` runs your files against your Northwind database, in order, and checks the data they leave behind. Nothing is changed: everything runs inside one transaction that is rolled back. The tests start from Northwind as `Northwind.sql` makes it (the rows you added in SSMS are set aside inside the transaction, and come back afterwards), so you can run them whenever you like. It needs the .NET SDK, which you installed in the first week. Open a terminal in this folder and run:
 
 ```bash
-dotnet test ModifyingPractice.Tests
+dotnet test ModifyingExercise.Tests
 ```
 
 At first every test fails: that is expected. Each problem you solve turns its test green, and a failing test's message says what it looked for. The problems build on each other, so the test for problem 7 runs problems 1 to 7. The tests use the Northwind database on `localhost`; to use another one, set the `NORTHWIND_CONNECTION` environment variable to its connection string.
